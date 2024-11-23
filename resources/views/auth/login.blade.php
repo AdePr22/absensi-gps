@@ -38,7 +38,7 @@
                 <h4>Silahkan login</h4>
             </div>
             <div class="section mt-1 mb-5">
-                <form action="/prosesLogin" method="POST">
+                <form action="/proseslogin" method="POST">
                     @csrf
                     <div class="form-group boxed">
                         <div class="input-wrapper">

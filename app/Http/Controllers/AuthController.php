@@ -6,5 +6,8 @@ use Illuminate\Http\Request;
 
 class AuthController extends Controller
 {
-    public function prosesLogin(Request $request) {}
+    public function prosesLogin(Request $request)
+    {
+        echo "test OK";
+    }
 }
